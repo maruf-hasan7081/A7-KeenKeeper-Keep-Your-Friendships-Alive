@@ -27,7 +27,7 @@ const Timeline = () => {
     <div className="max-w-4xl mx-auto py-10">
       <h1 className="text-2xl font-bold mb-6">Timeline</h1>
 
-      {/* FILTER */}
+      
       <select
         onChange={(e) => setFilter(e.target.value)}
         className="select select-bordered mb-6"
@@ -38,7 +38,7 @@ const Timeline = () => {
         <option value="video">Video</option>
       </select>
 
-      {/* LIST */}
+      
       <div className="space-y-4">
         {filteredData.map((item, i) => (
           <div
