@@ -14,7 +14,7 @@ const Allfriends = () => {
       });
   }, []);
 
-  // 🔥 Summary হিসাব
+  
   const total = friends.length;
 
   const onTrack = friends.filter(
@@ -25,7 +25,7 @@ const Allfriends = () => {
     (f) => f.status === "overdue" || f.status === "almost due"
   ).length;
 
-  const interactions = 12; // later dynamic করতে পারো
+  const interactions = 12; 
 
   if (loading) {
     return (
@@ -38,7 +38,7 @@ const Allfriends = () => {
   return (
     <div className="mt-8">
 
-      {/* 🔥 SUMMARY SECTION */}
+      
       <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mb-10">
         <div className="bg-white rounded-xl shadow-sm p-6 text-center">
           <h2 className="text-2xl font-bold text-green-700">{total}</h2>
@@ -63,10 +63,10 @@ const Allfriends = () => {
         </div>
       </div>
 
-      {/* 🔥 TITLE */}
+     
       <h2 className="text-xl font-semibold mb-6">Your Friends</h2>
 
-      {/* 🔥 FRIEND GRID */}
+     
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
         {friends.map((friend) => (
           <FriendCard key={friend.id} friend={friend} />
