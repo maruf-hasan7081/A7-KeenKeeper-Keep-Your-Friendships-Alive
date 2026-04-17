@@ -1,16 +1,77 @@
-# React + Vite
+# 👥 KeenKeeper — Keep Your Friendships Alive
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Project Description
 
-Currently, two official plugins are available:
+KeenKeeper is a modern web application that helps you maintain meaningful relationships with  friends. It allows  to track  interactions, set goals for communication, and ensure that no friendship fades away due to lack of contact.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Link
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+https://splendid-sable-7fe593.netlify.app/
 
-## Expanding the ESLint configuration
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+---
+
+## 🛠️ Technologies Used
+
+* ⚛️ React.js
+* 🌐 React Router 
+* 🎨 Tailwind CSS + DaisyUI
+* 📊 Recharts (for analytics)
+* 🔔 React Toastify
+* 💾 LocalStorage (for timeline data)
+
+---
+
+## ✨ Key Features
+
+### 👥 Friend Management
+
+* View all friends in a responsive grid layout
+* Each friend has profile details, tags, and status
+* Click any friend to view detailed information
+
+### 📞 Interaction Tracking
+
+* Log Call, Text, and Video interactions
+* Automatically save interactions to Timeline
+* Toast notification on every interaction
+
+### 📜 Timeline System
+
+* View all past interactions
+* Filter by Call, Text, or Video
+* Clean UI with icons and dates
+
+### 📊 Friendship Analytics
+
+* Pie chart showing interaction types
+* Visual representation of communication patterns
+
+---
+
+## 🎯 Core Functionalities
+
+* 🔝 Fully responsive Navbar with active route highlight
+* 🎯 Banner with summary statistics
+* 👫 Friend cards with dynamic data
+* 👤 Detailed friend profile page
+* ⚡ Quick check-in system (Call/Text/Video)
+* 📜 Timeline with filtering
+* 📊 Analytics page with charts
+* ❌ Custom 404 Page
+* 🔄 Reload-safe routing (deployment ready)
+
+---
+
+## 📱 Responsive Design
+
+The application is fully responsive and works seamlessly on:
+
+* 📱 Mobile devices
+* 📲 Tablets
+* 💻 Desktop screens
+
+
