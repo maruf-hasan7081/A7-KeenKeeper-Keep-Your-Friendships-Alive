@@ -21,7 +21,7 @@ const FriendDetails = () => {
       });
   }, [id]);
 
-  // 🔥 Check-In handler
+  
   const handleCheckIn = (type) => {
     const entry = {
       date: new Date().toLocaleDateString(),
@@ -49,10 +49,10 @@ const FriendDetails = () => {
   return (
     <div className="grid md:grid-cols-3 gap-6">
 
-      {/* 🔵 LEFT SIDE */}
+      
       <div className="space-y-4">
 
-        {/* Profile Card */}
+        
         <div className="bg-white rounded-xl shadow-sm p-6 text-center">
           <img
             src={friend.picture}
@@ -70,7 +70,7 @@ const FriendDetails = () => {
             {friend.status}
           </span>
 
-          {/* Tags */}
+          
           <div className="flex justify-center gap-2 mt-3 flex-wrap">
             {friend.tags.map((tag, i) => (
               <span
@@ -82,27 +82,27 @@ const FriendDetails = () => {
             ))}
           </div>
 
-          {/* Bio */}
+          
           <p className="text-sm text-gray-500 mt-3 italic">
             "{friend.bio}"
           </p>
 
-          {/* Email */}
+          
           <p className="text-sm text-gray-400 mt-2">
             {friend.email}
           </p>
         </div>
 
-        {/* Action Buttons */}
+       
         <button className="btn w-full">⏰ Snooze 2 Weeks</button>
         <button className="btn w-full">📦 Archive</button>
         <button className="btn btn-error w-full">🗑️ Delete</button>
       </div>
 
-      {/* 🟢 RIGHT SIDE */}
+      
       <div className="md:col-span-2 space-y-6">
 
-        {/* Stats */}
+       
         <div className="grid grid-cols-3 gap-4">
           <div className="bg-white p-4 rounded-xl text-center shadow-sm">
             <h2 className="text-xl font-bold">
@@ -132,7 +132,7 @@ const FriendDetails = () => {
           </div>
         </div>
 
-        {/* Relationship Goal */}
+        
         <div className="bg-white p-6 rounded-xl shadow-sm flex justify-between items-center">
           <div>
             <h3 className="font-semibold">
@@ -147,7 +147,7 @@ const FriendDetails = () => {
           <button className="btn btn-sm">Edit</button>
         </div>
 
-        {/* Quick Check-In */}
+        
         <div className="bg-white p-6 rounded-xl shadow-sm">
           <h3 className="font-semibold mb-4">
             Quick Check-In
