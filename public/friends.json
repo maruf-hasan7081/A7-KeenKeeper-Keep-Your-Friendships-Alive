@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Alex Johnson",
+    "picture": "https://i.pravatar.cc/150?img=1",
+    "email": "alex.johnson@email.com",
+    "days_since_contact": 18,
+    "status": "overdue",
+    "tags": ["college", "close friend"],
+    "bio": "Met during university. We used to study and travel together.",
+    "goal": 14,
+    "next_due_date": "2026-04-10"
+  },
+  {
+    "id": 2,
+    "name": "Sarah Williams",
+    "picture": "https://i.pravatar.cc/150?img=2",
+    "email": "sarah.w@email.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["work", "team mate"],
+    "bio": "Worked together on multiple projects in the company.",
+    "goal": 14,
+    "next_due_date": "2026-04-20"
+  },
+  {
+    "id": 3,
+    "name": "Michael Brown",
+    "picture": "https://i.pravatar.cc/150?img=3",
+    "email": "michael.brown@email.com",
+    "days_since_contact": 5,
+    "status": "on-track",
+    "tags": ["gym", "fitness"],
+    "bio": "We meet regularly at the gym and train together.",
+    "goal": 14,
+    "next_due_date": "2026-04-30"
+  },
+  {
+    "id": 4,
+    "name": "Emily Davis",
+    "picture": "https://i.pravatar.cc/150?img=4",
+    "email": "emily.d@email.com",
+    "days_since_contact": 22,
+    "status": "overdue",
+    "tags": ["school", "best friend"],
+    "bio": "Childhood friend. We grew up in the same neighborhood.",
+    "goal": 14,
+    "next_due_date": "2026-04-05"
+  },
+  {
+    "id": 5,
+    "name": "David Wilson",
+    "picture": "https://i.pravatar.cc/150?img=5",
+    "email": "david.w@email.com",
+    "days_since_contact": 12,
+    "status": "almost due",
+    "tags": ["gaming", "online friend"],
+    "bio": "We play online games together almost every weekend.",
+    "goal": 14,
+    "next_due_date": "2026-04-19"
+  },
+  {
+    "id": 6,
+    "name": "Olivia Martinez",
+    "picture": "https://i.pravatar.cc/150?img=6",
+    "email": "olivia.m@email.com",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["travel", "photography"],
+    "bio": "Travel buddy. We explore new places and take photos.",
+    "goal": 14,
+    "next_due_date": "2026-05-01"
+  },
+  {
+    "id": 7,
+    "name": "James Anderson",
+    "picture": "https://i.pravatar.cc/150?img=7",
+    "email": "james.a@email.com",
+    "days_since_contact": 16,
+    "status": "overdue",
+    "tags": ["business", "mentor"],
+    "bio": "Guides me in business and career decisions.",
+    "goal": 14,
+    "next_due_date": "2026-04-12"
+  },
+  {
+    "id": 8,
+    "name": "Sophia Taylor",
+    "picture": "https://i.pravatar.cc/150?img=8",
+    "email": "sophia.t@email.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["art", "creative"],
+    "bio": "We share ideas about art and creative projects.",
+    "goal": 14,
+    "next_due_date": "2026-04-22"
+  }
+]
